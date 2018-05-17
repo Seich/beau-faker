@@ -1,0 +1,25 @@
+{
+  "name": "beau-faker",
+  "version": "0.0.1",
+  "description": "A Faker.js plugin for Beau",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Seich/beau-faker.git"
+  },
+  "keywords": [
+    "beau"
+  ],
+  "author": "David Diaz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Seich/beau-faker/issues"
+  },
+  "homepage": "https://github.com/Seich/beau-faker#readme",
+  "dependencies": {
+    "faker": "^4.1.0"
+  }
+}

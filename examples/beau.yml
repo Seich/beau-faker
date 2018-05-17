@@ -1,0 +1,14 @@
+endpoint: http://httpbin.org
+
+plugins:
+  - faker
+
+POST /anything:
+  alias: anything
+  fakeIt: true
+  payload:
+    name:
+      first: '{{name.firstName}}'
+      last: '{{name.lastName}}'
+
+    address: '{{address.city}}, {{address.state}}'
